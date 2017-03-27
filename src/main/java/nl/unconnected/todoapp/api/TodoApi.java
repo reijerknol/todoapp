@@ -17,6 +17,7 @@ public class TodoApi {
 	public TodoModel getTodoModel() {
 		TodoModel todootje = new TodoModel(1, "boodschappen doen", "huishoudelijk", new Date());
 		TodoModel todootje2 = new TodoModel(1, "boodschappen doen", "huishoudelijk", new Date());
+		TodoModel todootje3 = new TodoModel(1, "boodschappen doen", "zakelijk", new Date());
 		return todootje;
 	}
 	
